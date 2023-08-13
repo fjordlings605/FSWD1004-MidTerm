@@ -50,13 +50,8 @@ export class JobService {
     return of(this.jobsList);    
   }  
     
-  getJob(title: string): Observable<any>{
-    let jobId= "";
-    this.jobsList.forEach(j => {
-      if (j.title === title){
-        jobId= j.id;
-      }
-    });
-    return of(jobId);
+  getJob(id: number): Observable<any>{
+    let job = this.jobsList.find(j=> j.id === id);      
+    return of(job);
   }
 }

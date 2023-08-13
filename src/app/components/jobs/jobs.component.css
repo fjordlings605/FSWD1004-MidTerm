@@ -1,0 +1,8 @@
+div {
+    display:block;
+    margin: 20px auto 20px auto;
+    width: 20%;
+    border: 5px double black;
+    padding: 5px 15px 20px 40px;
+
+}

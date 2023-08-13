@@ -1,7 +1,9 @@
 div {
     display: block;
     width: 50%;
-    margin: 10px auto 10px auto;
-    padding: 10px;
-    
+    margin: 50px auto 10px auto;
+    padding: 5px 10px 30px 30px;
+    border: 6px solid #4c4b63;
+    color: #f0f0f0;
+    background-color: #949396;
 }

@@ -2,7 +2,7 @@
     <h1>Work History</h1>
     <ul>
         <li *ngFor="let j of jobList">
-            <a [routerLink] = "['/jobs',j.id]">{{j.title}}</a>
+            <a [routerLink] = "['/jobs',j.id]"><b>{{j.title}}</b></a>
         </li>
     </ul>
 </div>
